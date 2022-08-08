@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+  background-color: #252627;
+  color: bisque;
+  display: border-box;
+  justify-content: center;
+
+
+}
+
+a {
+  color: blanchedalmond;
+  padding: 1rem;
+  margin-top: 20px;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+  display: space-around;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 로테이션 로고 css */
+img.infinite_rotating_logo {
+  animation: rotate_image 10s linear infinite;
+  transform-origin: 50% 50%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  height: 170px;
+  width: 170px;
+  border-radius: 120px;
+  border: solid black 5px;
+  transition: rotate 5s infinite;
+  align-items: center;
+  display: flex;
+  margin-left: 270px;
+
+}
+
+iframe {
+  width: 700px;
+  height: 500px;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+
+  0% {
+    top: 0px;
+
+  }
+
+  95% {
+    width: 100px;
+
+  }
+
+  to {
+    top: 300px;
+    width: 115px;
+    height: 90px;
+    transform: translate(100px, 100px);
+
+  }
+}
