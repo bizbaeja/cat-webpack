@@ -1,7 +1,7 @@
+
 // src/index.js
 const _ = require('./underbar.js');
 require('./style.css');
-
 const shout = (...sentences) => console.log(...sentences);
 const shoutToHTML = (...sentences) => {
   const app = document.querySelector('#app');
